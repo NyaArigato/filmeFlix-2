@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: normal;
+}
+
+body {
+    background-color: #EFE9F7;
+    font-family: 'Poppins';
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: #622773;
+    height: 90px;
+}
+
+header h1 {
+    font-family: 'AbeeZee', sans-serif;
+    color: #A192A6;
+    padding-left: 69px;
+    padding-top: 24px;
+}
+
+.dev {
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    color: #EFE9F7;
+    float: right;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    padding: 5px;
+}
+
+.dev:hover {
+    color: #A896D6;
+    text-decoration: underline;
+}
+
+.Film {
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    color: #EFE9F7;
+    float: right;
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    padding: 5px;
+}
+
+.Film:hover {
+    color: #A896D6;
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title2 {
+    font-weight: bold;
+}

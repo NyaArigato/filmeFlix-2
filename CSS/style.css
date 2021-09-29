@@ -19,6 +19,7 @@
 
 body {
     background-color: #EFE9F7;
+    height: 100%;
 }
 
 .clear {
@@ -50,8 +51,8 @@ header h1 {
     color: #EFE9F7;
     float: right;
     text-decoration: none;
-    position: relative;
-    right: 90px;
+    /*position: relative;
+    right: 90px;*/
 }
 
 .dev:hover {
@@ -65,8 +66,8 @@ header h1 {
     color: #EFE9F7;
     float: right;
     text-decoration: none;
-    position: relative;
-    right: 134px;
+    /*position: relative;
+    right: 134px;*/
 }
 
 .Desc:hover {
@@ -76,20 +77,69 @@ header h1 {
 
 /*Corpo*/
 
+main {
+    display: flex;
+}
+
 /*As vantagens de ser invisível*/
 
 .titulo-AVdsI {
     font-family: Helvetica, Arial, sans-serif;
-    position: relative;
+    /*position: relative;
     top: 76px;
-    left: 60px;
+    left: 60px;*/
     font-size: 2em;
     max-width: 447px;
 }
 
 .AVdsI {
     float: left;
-    position: relative;
+    /*position: relative;
     top: 115px;
-    left: 100px;
+    left: 100px;*/
+}
+
+/*Divergente*/
+
+.titulo-Diver {
+    font-family: Helvetica, Arial, sans-serif;
+    /*position: relative;
+    top: -460px;
+    left: 835px;*/
+    font-size: 2em;
+    max-width: 447px;
+}
+
+.Diver {
+    float: left;
+    /*position: relative;
+    top: -421px;
+    left: 758px;*/
+}
+
+/*Esquadrão Suicida*/
+
+.titulo-EdS {
+    font-family: Helvetica, Arial, sans-serif;
+    /*position: relative;
+    top: -997px;
+    left: 1370px;*/
+    font-size: 2em;
+    max-width: 447px;
+}
+
+.EdS {
+    float: left;
+    /*position: relative;
+    top: -958px;
+    left: 1363px;*/
+}
+
+/*Footer - Rodape*/
+
+footer {
+    background-color: #4E366B;
+    padding-top: 76px;
+    /*position: relative;*/
+    /*bottom: 833px;*/
 }

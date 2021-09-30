@@ -1,5 +1,4 @@
 
-
 /*Leis*/
 
 @charset "UTF-8";
@@ -49,10 +48,9 @@ header h1 {
     font-size: 1.1em;
     font-family: 'Poppins', sans-serif;
     color: #EFE9F7;
-    float: right;
+    margin-left: 939px;
+    margin-right: 70px;
     text-decoration: none;
-    /*position: relative;
-    right: 90px;*/
 }
 
 .dev:hover {
@@ -64,10 +62,7 @@ header h1 {
     font-size: 1.1em;
     font-family: 'Poppins', sans-serif;
     color: #EFE9F7;
-    float: right;
     text-decoration: none;
-    /*position: relative;
-    right: 134px;*/
 }
 
 .Desc:hover {
@@ -85,54 +80,45 @@ main {
 
 .titulo-AVdsI {
     font-family: Helvetica, Arial, sans-serif;
-    /*position: relative;
-    top: 76px;
-    left: 60px;*/
     font-size: 2em;
+    margin-top: 10px;
+    margin-left: 15px;
     max-width: 447px;
 }
 
 .AVdsI {
-    float: left;
-    /*position: relative;
-    top: 115px;
-    left: 100px;*/
+    margin-top: 26px;
+    margin-left: 62px;
 }
 
 /*Divergente*/
 
 .titulo-Diver {
     font-family: Helvetica, Arial, sans-serif;
-    /*position: relative;
-    top: -460px;
-    left: 835px;*/
     font-size: 2em;
+    margin-top: 10px;
+    margin-left: 75px;
     max-width: 447px;
 }
 
 .Diver {
-    float: left;
-    /*position: relative;
-    top: -421px;
-    left: 758px;*/
+    margin-top: 26px;
+    margin-left: 10px;
 }
 
 /*Esquadrão Suicida*/
 
 .titulo-EdS {
     font-family: Helvetica, Arial, sans-serif;
-    /*position: relative;
-    top: -997px;
-    left: 1370px;*/
     font-size: 2em;
     max-width: 447px;
+    margin-top: 10px;
+    margin-left: 125px;
 }
 
 .EdS {
-    float: left;
-    /*position: relative;
-    top: -958px;
-    left: 1363px;*/
+    margin-top: 26px;
+    margin-left: 103px;
 }
 
 /*Footer - Rodape*/
@@ -140,6 +126,16 @@ main {
 footer {
     background-color: #4E366B;
     padding-top: 76px;
-    /*position: relative;*/
-    /*bottom: 833px;*/
+}
+
+.devs {
+    color: #CDC7EB;
+    text-align: center;
+    margin-top: -54px;
+}
+
+.teste {
+    color: #CDC7EB;
+    text-align: center;
+    margin-top: 10px;
 }

@@ -54,7 +54,7 @@ body {
 
 /*Header-Menu-Nav */
 
-.header-nav {
+.header-menu {
     margin-top: 25px;
 }
 
@@ -70,7 +70,7 @@ header > nav > a {
 
 /*Link1*/
 
-.header-nav-link-1 {
+.header-menu-link-1 {
     padding-top: 7px;
     padding-right: 156px;
     padding-left: 69px;
@@ -79,7 +79,7 @@ header > nav > a {
 
 /*Link2*/
 
-.header-nav-link-2 {
+.header-menu-link-2 {
     padding-top: 7px;
     padding-right: 156px;
     padding-left: 156px;
@@ -87,7 +87,7 @@ header > nav > a {
 
 /*Link3*/
 
-.header-nav-link-3 {
+.header-menu-link-3 {
     padding-top: 7px;
     padding-right: 141px;
     padding-left: 156px;

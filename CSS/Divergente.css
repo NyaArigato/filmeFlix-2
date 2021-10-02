@@ -112,7 +112,7 @@ header > nav > a:hover {
     align-items: stretch;
 }
 
-/*Titulo-Sinopse*/
+/*Sinopse*/
 
 .main-div-1-tittle {
     font-family: var(--font-tittle);
@@ -130,7 +130,7 @@ header > nav > a:hover {
     margin-left: 20px;
 }
 
-/*Titulo-Imagem*/
+/*Capa*/
 
 .main-div-2-tittle {
     font-family: var(--font-tittle);
@@ -144,7 +144,7 @@ header > nav > a:hover {
     margin-left: 26px;
 }
 
-/*Titulo-Informações adicionais*/
+/*Informações adicionais*/
 
 .main-div-3-tittle {
     font-family: var(--font-tittle);

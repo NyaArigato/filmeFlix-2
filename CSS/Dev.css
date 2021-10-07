@@ -69,29 +69,35 @@ header > nav > a {
 /*Link1*/
 
 .header-menu-link-1 {
-    padding-right: 105px;
-    padding-left: 105px;
+    padding-top: 7px;
+    padding-right: 169px;
+    padding-left: 169px;
 }
 
-/*Link2*/
+/*Links2*/
+
 .header-menu-link-2 {
-    padding-right: 85px;
-    padding-left: 83px;
+    padding-top: 7px;
+    padding-right: 169px;
+    padding-left: 169px;
 }
 
 /*Link3*/
 
 .header-menu-link-3 {
-    padding-right: 105px;
-    padding-left: 105px;
+    padding-top: 7px;
+    padding-right: 169px;
+    padding-left: 169px;
 }
 
 /*Link4*/
 
 .header-menu-link-4 {
-    padding-right: 105px;
-    padding-left: 105px;
+    padding-top: 7px;
+    padding-right: 169px;
+    padding-left: 169px;
 }
+
 
 /*Links Hover*/
 
@@ -168,13 +174,11 @@ header > nav > a:hover {
 
 /*Footer / Rodape*/
 
-/*Footer / Rodape*/
-
 .footer {
     background-color: #4E366B;
     width: 100%;
     height: 70px;
-    margin-top: 278px;
+    margin-top: 600px;
 }
 
 /*Footer - Text*/
@@ -185,3 +189,14 @@ header > nav > a:hover {
     padding-top: 30px;
 }
 
+/*Footer - Link*/
+
+.footer-text-link {
+    text-decoration: none;
+    text-align: center;
+    color: var(--cor3);
+}
+
+.footer-text-link:hover {
+    text-decoration: underline;
+}

@@ -96,8 +96,8 @@ header > nav > a {
 
 .header-menu-link-4 {
     padding-top: 7px;
-    padding-right: 169px;
-    padding-left: 169px;
+    padding-right: 161px;
+    padding-left: 161px;
 }
 
 
@@ -122,6 +122,15 @@ header > nav > a:hover {
 
 /*As vantagens de ser invisível*/
 
+.main-div-1 {
+    border: 3px solid black;
+    margin-top: 40px;
+    box-shadow: -13px 13px 13px 0px rgb(0 0 0 / 43%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
 .main-div-1-tittle {
     font-family: var(--font-tittle);
     font-size: 1.8em;
@@ -130,11 +139,20 @@ header > nav > a:hover {
 }
 
 .main-div-1-image {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: 19px;
+    margin-left: 25px;
 }
 
 /*Divergente*/
+
+.main-div-2 {
+    border: 3px solid black;
+    margin-top: 40px;
+    box-shadow: -13px 13px 13px 0px rgb(0 0 0 / 43%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 
 .main-div-2-tittle {
     font-family: var(--font-tittle);
@@ -144,12 +162,21 @@ header > nav > a:hover {
 }
 
 .main-div-2-image {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: 16px;
+    margin-left: 25px;
+    margin-right: 21px;
 }
 
 /*Esquadrão Suicida*/
 
+.main-div-3 {
+    border: 3px solid black;
+    margin-top: 40px;
+    box-shadow: -13px 13px 13px 0px rgb(0 0 0 / 43%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 .main-div-3-tittle {
     font-family: var(--font-tittle);
     font-size: 1.8em;
@@ -158,8 +185,9 @@ header > nav > a:hover {
 }
 
 .main-div-3-image {
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: 17px;
+    margin-left: 25px;
+    margin-right: 22px;
 }
 
 /*Footer / Rodape*/
@@ -190,4 +218,3 @@ header > nav > a:hover {
 .footer-text-link:hover {
     text-decoration: underline;
 }
-

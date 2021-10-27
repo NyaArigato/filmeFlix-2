@@ -191,3 +191,21 @@ header > nav > a:hover {
     text-decoration: underline;
 }
 
+.flo {
+    text-decoration: none;
+    color: #CDC7EB;
+}
+.flop {
+    text-decoration: none;
+    color: #CDC7EB;
+}
+
+.log { 
+    float: right;
+    padding-top: 0 ;
+    color: #CDC7EB;
+}
+
+.log a:hover {
+    text-decoration: underline;
+}

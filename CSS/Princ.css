@@ -101,7 +101,6 @@ header > nav > a:hover {
 
 .films {
     max-width: 73%;
-    border: 1px solid rgb(43, 104, 128);
     text-align: center;
     margin-left: 13%;
     display: flex;
@@ -121,23 +120,24 @@ table {
 
 div.films h1 {
     color: var(--cor1);
+    font-size: 35px;
+    margin-top: 2%;
 }
 
 /* Images Size*/
 
 div.films img {
     width: 169px;
-    height: 230px;
+    height: 242px;
     box-shadow: 4px 5px 13px 0px rgba(0, 0, 0, 0.719);
 }
 
 /*Link -a*/
 
-
-
 .films a {
     text-decoration: none;
     color: var(--cor0);
+    font-size: 18px;
 }
 
 .films a:hover {

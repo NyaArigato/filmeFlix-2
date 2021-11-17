@@ -67,14 +67,15 @@ header > nav > a {
     transition-duration: 0.5s
 }
 
-/*Links Hover*/
+/*Links Header Hover*/
 
 header > nav > a:hover {
     background-color: var(--cor2);
     color: var(--cor0);
-   border-radius: 3px;
+    border-radius: 3px;
 }
 
+/*Line*/
 
 .flo {
     text-decoration: none;
@@ -93,5 +94,49 @@ header > nav > a:hover {
 }
 
 .log a:hover {
+    text-decoration: underline;
+}
+
+/* Div Settings*/
+
+.films {
+    max-width: 73%;
+    border: 1px solid rgb(43, 104, 128);
+    text-align: center;
+    margin-left: 13%;
+    display: flex;
+}
+
+/* Table Geral Settings*/
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 20px;
+}
+
+/*Table's H1*/
+
+div.films h1 {
+    color: var(--cor1);
+}
+
+/* Images Size*/
+
+div.films img {
+    width: 169px;
+    height: 230px;
+}
+
+/*Link -a*/
+
+.films a {
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+.films a:hover {
     text-decoration: underline;
 }

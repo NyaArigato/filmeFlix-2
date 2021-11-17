@@ -1,0 +1,165 @@
+
+/* Leis */
+
+@charset "UTF-8";
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap'); /*font-family: 'ABeeZee', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*font-family: 'Poppins', sans-serif;*/
+
+/*Variaveis*/
+
+:root {
+    --cor0: #4E366B;
+    --cor1: #6A5491;
+    --cor2: #A896D6;
+    --cor3: #CDC7EB;
+    --cor4: #EFE9F7;
+
+    --font-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --font-tittle: 'ABeeZee', sans-serif;
+    --font-link: 'Poppins', sans-serif; 
+}
+
+/*Config Globais*/ 
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrão);
+}
+
+body {
+    background-color: var(--cor4);
+}
+
+/* Corpo - Body*/
+
+/* Formulário - Form */
+
+.cadFilm {
+    background-color: var(--cor2);
+    width: 666px;
+    height: 733px;
+    margin-top: 130px;
+    margin-left: 632px;
+    border-radius: 8px;
+}
+
+/* Título - Title*/
+
+.Title {
+    text-align: center;
+    padding-top: 32px;
+}
+
+/* Label - Input */
+
+/* Título Filme */
+
+.TitleFilm /* div */ {
+    padding-top: 50px;
+}
+
+.titleFilm /* label */ {
+    margin-left: 130px;
+}
+
+.titFilm /* input*/ {
+    width: 183px;
+    height: 26px;
+    margin-left: 21px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/* Elenco */
+
+.ElencoFilm /* div */ {
+    padding-top: 30px;
+}
+
+.elencoFilm /* label */ {
+    margin-left: 130px;
+}
+
+.eleFilm /* input */ {
+    width: 183px;
+    height: 26px;
+    margin-left: 21px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/* Produtora */
+
+.ProdutoraFilm /* div */ {
+    padding-top: 30px;
+}
+
+.produtoraFilm /* label */ {
+    margin-left: 130px;
+}
+
+.prodFilm /* input */ {
+    width: 183px;
+    height: 26px;
+    margin-left: 21px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/* Duração */
+
+.DuracaoFilm /* div */ {
+    padding-top: 30px;
+}
+
+.duracaoFilm /* label */ {
+    margin-left: 130px;
+}
+
+.duracao /* input */ {
+    width: 183px;
+    height: 26px;
+    margin-left: 21px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/* Indicação Etária */
+
+.IndEtariaFilm /* div */ {
+    padding-top: 30px;
+}
+
+.indEtariaFilm /* label */ {
+    margin-left: 130px;
+}
+
+.indEtaria /* input*/ {
+    width: 183px;
+    height: 26px;
+    margin-left: 21px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+/* Sinopse */
+
+.sip /* div */ {
+    padding-top: 30px;
+    display: flex;
+}
+
+.sinopseFilm /* label */ {
+    margin-left: 130px;
+}
+
+.sinopse /* textarea */ {
+    border: 0px;
+    margin-left: 21px;
+    border-radius: 3px;
+}

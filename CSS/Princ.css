@@ -159,7 +159,7 @@ div.films img {
 .footer-text {
     text-align: center;
     color: var(--cor3);
-    padding-top: 30px;
+    margin-top: -20px;
 }
 
 /*Footer - Link*/
@@ -171,5 +171,23 @@ div.films img {
 }
 
 .footer-text-link:hover {
+    text-decoration: underline;
+}
+
+/* Cadastro de Filmes */ 
+
+.textCadFilm {
+    width: 159px;
+    margin-left: 21px;
+    padding-top: 33px;
+    padding-right: 5px;
+}
+
+.CadastroFilm {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.CadastroFilm:hover {
     text-decoration: underline;
 }

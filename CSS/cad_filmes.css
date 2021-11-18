@@ -52,10 +52,16 @@ body {
 
 .Title {
     text-align: center;
+    font-family: var(--font-tittle);
     padding-top: 32px;
 }
 
 /* Label - Input */
+
+label {
+    font-family: var(--font-padrão);
+    font-size: 1.2em;
+}
 
 /* Título Filme */
 
@@ -70,9 +76,9 @@ body {
 .titFilm /* input*/ {
     width: 183px;
     height: 26px;
-    margin-left: 21px;
+    margin-left: 55px;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 /* Elenco */
@@ -88,9 +94,9 @@ body {
 .eleFilm /* input */ {
     width: 183px;
     height: 26px;
-    margin-left: 21px;
+    margin-left: 46px;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 /* Produtora */
@@ -108,7 +114,7 @@ body {
     height: 26px;
     margin-left: 21px;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 /* Duração */
@@ -124,9 +130,9 @@ body {
 .duracao /* input */ {
     width: 183px;
     height: 26px;
-    margin-left: 21px;
+    margin-left: 105px;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 /* Indicação Etária */
@@ -142,9 +148,9 @@ body {
 .indEtaria /* input*/ {
     width: 183px;
     height: 26px;
-    margin-left: 21px;
+    margin-left: 43px;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 /* Sinopse */
@@ -160,6 +166,31 @@ body {
 
 .sinopse /* textarea */ {
     border: 0px;
-    margin-left: 21px;
-    border-radius: 3px;
+    margin-left: 55px;
+    border-radius: 8px;
+}
+
+/* Butão - Buttom */
+
+/* Eviar */
+
+.envi /* input */ {
+    background-color: #D3D3D3;
+    width: 90px;
+    height: 23px;
+    margin-top: 44px;
+    margin-left: 218px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+/* Limpar/Cancelar */
+
+.lim /* input */ {
+    background-color: #D3D3D3;
+    width: 90px;
+    height: 23px;
+    margin-left: 15px;
+    border: 0px;
+    border-radius: 8px;
 }
